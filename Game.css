@@ -98,3 +98,12 @@
     .options{
         width: 100vw;
     }}
+    
+#image {
+    display: none;
+}
+
+canvas {
+    border: 5px solid darkgreen;
+    background-color: lightblue;
+}

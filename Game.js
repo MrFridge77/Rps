@@ -1,3 +1,8 @@
+const canvas = document.getElementById("GameCanvas");
+const ctx = canvas.getContext("2d")
+
+canvas.width=900;
+canvas.height=600;
 // app.js
   
 // Complete logic of game inside this function
@@ -131,3 +136,6 @@ const game = () => {
 // Calling the game function
 game();
 
+function show() {
+    
+}
